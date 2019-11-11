@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 433309e8c4b237148bab3c61294cb2d8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AutomaticDoor
+    100002: BaseDoor
+    100004: BaseLamp
+    100006: BaseLamp.001
+    100008: BaseLamp.002
+    100010: BaseLamp.003
+    100012: Camera
+    100014: Floor
+    100016: Glass
+    100018: Roof
+    100020: Store
+    100022: //RootNode
+    100024: Window
+    100026: Window.001
+    100028: Window.002
+    100030: Window.003
+    400000: AutomaticDoor
+    400002: BaseDoor
+    400004: BaseLamp
+    400006: BaseLamp.001
+    400008: BaseLamp.002
+    400010: BaseLamp.003
+    400012: Camera
+    400014: Floor
+    400016: Glass
+    400018: Roof
+    400020: Store
+    400022: //RootNode
+    400024: Window
+    400026: Window.001
+    400028: Window.002
+    400030: Window.003
+    2000000: Camera
+    2100000: BaseLamp
+    2100002: Lamp
+    2100004: Window
+    2100006: Roof
+    2100008: Glass
+    2100010: DetailDoor
+    2100012: Door
+    2100014: BaseDoor
+    2100016: Floor
+    2100018: Wall
+    2100020: Wallpaper
+    2100022: Brick
+    2300000: AutomaticDoor
+    2300002: BaseDoor
+    2300004: BaseLamp
+    2300006: BaseLamp.001
+    2300008: BaseLamp.002
+    2300010: BaseLamp.003
+    2300012: Floor
+    2300014: Glass
+    2300016: Roof
+    2300018: Store
+    2300020: Window
+    2300022: Window.001
+    2300024: Window.002
+    2300026: Window.003
+    3300000: AutomaticDoor
+    3300002: BaseDoor
+    3300004: BaseLamp
+    3300006: BaseLamp.001
+    3300008: BaseLamp.002
+    3300010: BaseLamp.003
+    3300012: Floor
+    3300014: Glass
+    3300016: Roof
+    3300018: Store
+    3300020: Window
+    3300022: Window.001
+    3300024: Window.002
+    3300026: Window.003
+    4300000: BaseLamp.003
+    4300002: BaseLamp.002
+    4300004: BaseLamp.001
+    4300006: Window.003
+    4300008: Window.002
+    4300010: Window.001
+    4300012: BaseLamp
+    4300014: Roof
+    4300016: Glass
+    4300018: AutomaticDoor
+    4300020: BaseDoor
+    4300022: Window
+    4300024: Floor
+    4300026: Store
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

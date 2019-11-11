@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f740495c2dbda4cecb9f88f961bdeafd, type: 3}
+  m_Name: Crossbow
+  m_EditorClassIdentifier: 
+  maxStack: 1
+  maxDurability: 1000
+  destroyable: 1
+  toolTip: '<b>{NAME}</b>
+
+    A wooden Crossbow.
+
+
+    {DAMAGE} Damage
+
+    Fire Interval: {COOLDOWN}s
+
+    Requires: {REQUIREDAMMO}
+
+
+    Ammo: {AMMO} / {MAGAZINESIZE}
+
+    Durability: {DURABILITY}%
+
+'
+  image: {fileID: 21300000, guid: 5352d532d33ab4ebe8ba4f4be6eb44b2, type: 3}
+  drop: {fileID: 114812546439872524, guid: fdf54205facae42aca294e9c0d18baff, type: 3}
+  modelPrefab: {fileID: 1985459411927944, guid: 68d2e903f2b844e8cb226b1e07757c06,
+    type: 3}
+  category: WeaponTwohand
+  keepUsingWhileButtonDown: 1
+  successfulUseSound: {fileID: 8300000, guid: 7bd0226af291f4dbeaf942f9688f281c, type: 3}
+  failedUseSound: {fileID: 0}
+  emptySound: {fileID: 8300000, guid: ec23e1a48dac948af84be6a6ed7b5cc7, type: 3}
+  cooldown: 1
+  shoulderLookAtWhileHolding: 1
+  useDirectly: 0
+  attackRange: 20
+  damage: 10
+  upperBodyAnimationParameter: UPPERBODY_RIFLE
+  requiredAmmo: {fileID: 11400000, guid: dd03d85c3fdb4437d84bfb012053819a, type: 2}
+  magazineSize: 1
+  reloadTime: 1
+  reloadSound: {fileID: 0}
+  zoom: 20
+  decalPrefab: {fileID: 1369496945668376, guid: 12cfe7016056b48e6875cfc877e30d28,
+    type: 3}
+  decalOffset: 0.01
+  recoilHorizontal: 0
+  recoilVertical: 0
+  projectile: {fileID: 114528146157462722, guid: 9735e5a13dc414867be46adf6b8eb406,
+    type: 3}

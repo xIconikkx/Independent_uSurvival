@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61d0376556db4445ebb219ea05470c9c, type: 3}
+  m_Name: Banana Drink
+  m_EditorClassIdentifier: 
+  ingredients:
+  - item: {fileID: 11400000, guid: bedd5143c282c41688da36a762ec4a5e, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 5615a6d1544af40acbced87b7336d498, type: 2}
+    amount: 1
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  - item: {fileID: 0}
+    amount: 0
+  result: {fileID: 11400000, guid: c910123af09384deb87f3a7a70317f9a, type: 2}
+  probability: 0.9

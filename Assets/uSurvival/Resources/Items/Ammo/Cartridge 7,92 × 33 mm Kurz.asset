@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebbf3d4b1d1a4412ba55eb0813d3fa87, type: 3}
+  m_Name: "Cartridge 7,92 \xD7 33 mm Kurz"
+  m_EditorClassIdentifier: 
+  maxStack: 20
+  maxDurability: 0
+  destroyable: 1
+  toolTip: '<b>{NAME}</b>
+
+    7.92 x 33 caliber Cartridge, commonly used with STG 44.
+
+
+    Amount: {AMOUNT}
+
+
+    <i>Drag onto a weapon to load it.</i>'
+  image: {fileID: 21300000, guid: a0bff3fdf72ba4671a7ea7f3f954cb71, type: 3}
+  drop: {fileID: 114798028571130776, guid: 620884c46bb664b649f66d4f533c73f0, type: 3}
+  modelPrefab: {fileID: 0}

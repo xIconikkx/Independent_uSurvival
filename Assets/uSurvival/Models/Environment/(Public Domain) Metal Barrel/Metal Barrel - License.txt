@@ -1,0 +1,7 @@
+Metal Barrels Pack was created by yughues
+https://opengameart.org/content/metal-barrels-pack
+
+Licensed as CC0:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Modifications: metal_barrel_open.obj with top removed

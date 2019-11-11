@@ -1,0 +1,622 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Arms
+  m_Mask: 00000000000000000000000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: eyeLashes_geo
+    m_Weight: 0
+  - m_Path: headPos_spaceLoc
+    m_Weight: 0
+  - m_Path: headPos_spaceLoc.001
+    m_Weight: 0
+  - m_Path: volund_armor_geo
+    m_Weight: 0
+  - m_Path: volund_bellyWound_geo
+    m_Weight: 0
+  - m_Path: volund_eyes_geo
+    m_Weight: 0
+  - m_Path: Volund_geo_grp
+    m_Weight: 0
+  - m_Path: volund_hair_geo
+    m_Weight: 0
+  - m_Path: volund_hairtop_geo
+    m_Weight: 0
+  - m_Path: volund_leatherMetal_Damage
+    m_Weight: 0
+  - m_Path: volund_leatherMetal_geo
+    m_Weight: 0
+  - m_Path: volund_legs_geo
+    m_Weight: 0
+  - m_Path: volund_outFliers_geo
+    m_Weight: 0
+  - m_Path: Volund_Reference
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt01/front_skirt_jnt01_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt02/front_skirt_jnt02_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt03/front_skirt_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt04
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt04/front_skirt_jnt04_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt05
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt05/front_skirt_jnt05_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt06
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt06/front_skirt_jnt06_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt07
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt07/front_skirt_jnt07_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt08
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt08/front_skirt_jnt08_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt09
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt09/front_skirt_jnt09_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt10
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt10/front_skirt_jnt10_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt11
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt11/front_skirt_jnt11_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt12
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/front_skirt_jnt12/front_skirt_jnt12_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/frontDagger_joint
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/frontDagger_joint/frontDagger_joint_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt01/left_skirt_jnt01_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt02/left_skirt_jnt02_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt03/left_skirt_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt04
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt04/left_skirt_jnt04_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt05
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt05/left_skirt_jnt05_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt06
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt06/left_skirt_jnt06_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt07
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt07/left_skirt_jnt07_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt08
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt08/left_skirt_jnt08_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt09
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt09/left_skirt_jnt09_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt10
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt10/left_skirt_jnt10_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt11
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt11/left_skirt_jnt11_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt12
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/left_skirt_jnt12/left_skirt_jnt12_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/leftSword_joint
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/leftSword_joint/leftSword_joint_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt01/rear_skirt_jnt01_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt02/rear_skirt_jnt02_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt03/rear_skirt_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt04
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt04/rear_skirt_jnt04_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt05
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt05/rear_skirt_jnt05_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt06
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt06/rear_skirt_jnt06_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt07
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt07/rear_skirt_jnt07_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt08
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt08/rear_skirt_jnt08_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt09
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt09/rear_skirt_jnt09_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt10
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt10/rear_skirt_jnt10_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt11
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt11/rear_skirt_jnt11_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt12
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rear_skirt_jnt12/rear_skirt_jnt12_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rearSword_joint
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rearSword_joint/rearSword_joint_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt01/right_skirt_jnt01_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt02/right_skirt_jnt02_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt03/right_skirt_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt04
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt04/right_skirt_jnt04_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt05
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt05/right_skirt_jnt05_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt06
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt06/right_skirt_jnt06_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt07
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt07/right_skirt_jnt07_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt08
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt08/right_skirt_jnt08_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt09
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt09/right_skirt_jnt09_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt10
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt10/right_skirt_jnt10_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt11
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt11/right_skirt_jnt11_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt12
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/right_skirt_jnt12/right_skirt_jnt12_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rightDagger_joint
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/rightDagger_joint/rightDagger_joint_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/tool01_joint
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/tool01_joint/tool01_joint_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_LeftUpLeg
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_LeftUpLeg/Volund_LeftLeg
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_LeftUpLeg/Volund_LeftLeg/Volund_LeftFoot
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_LeftUpLeg/Volund_LeftLeg/Volund_LeftFoot/Volund_LeftToeBase
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_LeftUpLeg/Volund_LeftLeg/Volund_LeftFoot/Volund_LeftToeBase/Volund_LeftToeBase_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_RightUpLeg
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_RightUpLeg/rightSword_joint
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_RightUpLeg/rightSword_joint/rightSword_joint_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_RightUpLeg/Volund_RightLeg
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_RightUpLeg/Volund_RightLeg/Volund_RightFoot
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_RightUpLeg/Volund_RightLeg/Volund_RightFoot/Volund_RightToeBase
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_RightUpLeg/Volund_RightLeg/Volund_RightFoot/Volund_RightToeBase/Volund_RightToeBase_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/bottom_stomachBreath_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/bottom_stomachBreath_jnt/bottom_stomachBreath_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/bellyBuckle_joint
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/bellyBuckle_joint/bellyBuckle_joint_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/top_stomachBreath_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/top_stomachBreath_jnt/top_stomachBreath_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/l_breathe_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/l_breathe_jnt/l_breathe_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/r_breathe_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/r_breathe_jnt/r_breathe_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/armRing_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/armRing_jnt/armRing_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandIndex1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandIndex1/Volund_LeftHandIndex2
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandIndex1/Volund_LeftHandIndex2/Volund_LeftHandIndex3
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandIndex1/Volund_LeftHandIndex2/Volund_LeftHandIndex3/Volund_LeftHandIndex4
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandIndex1/Volund_LeftHandIndex2/Volund_LeftHandIndex3/Volund_LeftHandIndex4/Volund_LeftHandIndex4_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandMiddle1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandMiddle1/Volund_LeftHandMiddle2
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandMiddle1/Volund_LeftHandMiddle2/Volund_LeftHandMiddle3
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandMiddle1/Volund_LeftHandMiddle2/Volund_LeftHandMiddle3/Volund_LeftHandMiddle4
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandMiddle1/Volund_LeftHandMiddle2/Volund_LeftHandMiddle3/Volund_LeftHandMiddle4/Volund_LeftHandMiddle4_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandPinky1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandPinky1/Volund_LeftHandPinky2
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandPinky1/Volund_LeftHandPinky2/Volund_LeftHandPinky3
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandPinky1/Volund_LeftHandPinky2/Volund_LeftHandPinky3/Volund_LeftHandPinky4
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandPinky1/Volund_LeftHandPinky2/Volund_LeftHandPinky3/Volund_LeftHandPinky4/Volund_LeftHandPinky4_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandRing1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandRing1/Volund_LeftHandRing2
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandRing1/Volund_LeftHandRing2/Volund_LeftHandRing3
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandRing1/Volund_LeftHandRing2/Volund_LeftHandRing3/Volund_LeftHandRing4
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandRing1/Volund_LeftHandRing2/Volund_LeftHandRing3/Volund_LeftHandRing4/Volund_LeftHandRing4_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandThumb1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandThumb1/Volund_LeftHandThumb2
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandThumb1/Volund_LeftHandThumb2/Volund_LeftHandThumb3
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandThumb1/Volund_LeftHandThumb2/Volund_LeftHandThumb3/Volund_LeftHandThumb4
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_LeftShoulder/Volund_LeftArm1/Volund_LeftArm/Volund_LeftArmRoll/Volund_LeftForeArm/Volund_LeftForeArmRoll/Volund_LeftHand/Volund_LeftHandThumb1/Volund_LeftHandThumb2/Volund_LeftHandThumb3/Volund_LeftHandThumb4/Volund_LeftHandThumb4_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand01_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand01_jnt01/hairStrand01_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand01_jnt01/hairStrand01_jnt02/ring02_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand01_jnt01/hairStrand01_jnt02/ring02_jnt/ring02_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand02_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand02_jnt01/hairStrand02_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand02_jnt01/hairStrand02_jnt02/hairStrand02_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand02_jnt01/hairStrand02_jnt02/hairStrand02_jnt03/hairStrand02_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand03_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand03_jnt01/hairStrand03_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand03_jnt01/hairStrand03_jnt02/hairStrand03_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand03_jnt01/hairStrand03_jnt02/hairStrand03_jnt03/hairStrand03_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand04_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand04_jnt01/hairStrand04_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand04_jnt01/hairStrand04_jnt02/hairStrand04_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand04_jnt01/hairStrand04_jnt02/hairStrand04_jnt03/hairStrand04_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand05_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand05_jnt01/hairStrand05_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand05_jnt01/hairStrand05_jnt02/ring03_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand05_jnt01/hairStrand05_jnt02/ring03_jnt/ring03_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand06_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand06_jnt01/hairStrand06_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand06_jnt01/hairStrand06_jnt02/hairStrand06_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand06_jnt01/hairStrand06_jnt02/hairStrand06_jnt03/hairStrand06_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand07_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand07_jnt01/hairStrand07_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand07_jnt01/hairStrand07_jnt02/hairStrand07_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand07_jnt01/hairStrand07_jnt02/hairStrand07_jnt03/ring04_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand07_jnt01/hairStrand07_jnt02/hairStrand07_jnt03/ring04_jnt/ring04_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand08_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand08_jnt01/hairStrand08_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand08_jnt01/hairStrand08_jnt02/hairStrand08_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand08_jnt01/hairStrand08_jnt02/hairStrand08_jnt03/hairStrand08_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand09_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand09_jnt01/hairStrand09_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand09_jnt01/hairStrand09_jnt02/hairStrand09_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand09_jnt01/hairStrand09_jnt02/hairStrand09_jnt03/hairStrand09_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand10_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand10_jnt01/hairStrand10_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand10_jnt01/hairStrand10_jnt02/ring05_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand10_jnt01/hairStrand10_jnt02/ring05_jnt/ring05_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand11_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand11_jnt01/hairStrand11_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand11_jnt01/hairStrand11_jnt02/hairStrand11_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand11_jnt01/hairStrand11_jnt02/hairStrand11_jnt03/hairStrand11_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand12_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand12_jnt01/hairStrand12_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand12_jnt01/hairStrand12_jnt02/hairStrand12_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand12_jnt01/hairStrand12_jnt02/hairStrand12_jnt03/hairStrand12_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand13_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand13_jnt01/hairStrand13_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand13_jnt01/hairStrand13_jnt02/hairStrand13_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand13_jnt01/hairStrand13_jnt02/hairStrand13_jnt03/hairStrand13_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand14_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand14_jnt01/hairStrand14_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand14_jnt01/hairStrand14_jnt02/ring07_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand14_jnt01/hairStrand14_jnt02/ring07_jnt/ring07_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand15_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand15_jnt01/hairStrand15_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand15_jnt01/hairStrand15_jnt02/ring08_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand15_jnt01/hairStrand15_jnt02/ring08_jnt/ring08_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand16_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand16_jnt01/hairStrand16_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand16_jnt01/hairStrand16_jnt02/hairStrand16_jnt03
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand16_jnt01/hairStrand16_jnt02/hairStrand16_jnt03/hairStrand16_jnt03_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand17_jnt01
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand17_jnt01/hairStrand17_jnt02
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand17_jnt01/hairStrand17_jnt02/ring06_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/hairStrand17_jnt01/hairStrand17_jnt02/ring06_jnt/ring06_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/ring01_jnt
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/ring01_jnt/ring01_jnt_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_Jaw
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_Jaw/Volund_Jaw_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_LeftEye
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_LeftEye/Volund_LeftEye_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_LeftLowerEyelid
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_LeftLowerEyelid/Volund_LeftLowerEyelid_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_LeftUpperEyelid
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_LeftUpperEyelid/Volund_LeftUpperEyelid_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_RightEye
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_RightEye/Volund_RightEye_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_RightLowerEyelid
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_RightLowerEyelid/Volund_RightLowerEyelid_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_RightUpperEyelid
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_Neck/Volund_Neck1/Volund_Head/Volund_RightUpperEyelid/Volund_RightUpperEyelid_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandIndex1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandIndex1/Volund_RightHandIndex2
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandIndex1/Volund_RightHandIndex2/Volund_RightHandIndex3
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandIndex1/Volund_RightHandIndex2/Volund_RightHandIndex3/Volund_RightHandIndex4
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandIndex1/Volund_RightHandIndex2/Volund_RightHandIndex3/Volund_RightHandIndex4/Volund_RightHandIndex4_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandMiddle1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandMiddle1/Volund_RightHandMiddle2
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandMiddle1/Volund_RightHandMiddle2/Volund_RightHandMiddle3
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandMiddle1/Volund_RightHandMiddle2/Volund_RightHandMiddle3/Volund_RightHandMiddle4
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandMiddle1/Volund_RightHandMiddle2/Volund_RightHandMiddle3/Volund_RightHandMiddle4/Volund_RightHandMiddle4_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandPinky1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandPinky1/Volund_RightHandPinky2
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandPinky1/Volund_RightHandPinky2/Volund_RightHandPinky3
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandPinky1/Volund_RightHandPinky2/Volund_RightHandPinky3/Volund_RightHandPinky4
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandPinky1/Volund_RightHandPinky2/Volund_RightHandPinky3/Volund_RightHandPinky4/Volund_RightHandPinky4_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandRing1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandRing1/Volund_RightHandRing2
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandRing1/Volund_RightHandRing2/Volund_RightHandRing3
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandRing1/Volund_RightHandRing2/Volund_RightHandRing3/Volund_RightHandRing4
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandRing1/Volund_RightHandRing2/Volund_RightHandRing3/Volund_RightHandRing4/Volund_RightHandRing4_end
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandThumb1
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandThumb1/Volund_RightHandThumb2
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandThumb1/Volund_RightHandThumb2/Volund_RightHandThumb3
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandThumb1/Volund_RightHandThumb2/Volund_RightHandThumb3/Volund_RightHandThumb4
+    m_Weight: 0
+  - m_Path: Volund_Reference/Volund_Hips/Volund_Spine/Volund_Spine1/Volund_Spine2/Volund_Spine3/Volund_RightShoulder/Volund_RightArm1/Volund_RightArm/Volund_RightArmRoll/Volund_RightForeArm/Volund_RightForeArmRoll/Volund_RightHand/Volund_RightHandThumb1/Volund_RightHandThumb2/Volund_RightHandThumb3/Volund_RightHandThumb4/Volund_RightHandThumb4_end
+    m_Weight: 0
+  - m_Path: volund_skinBody_geo
+    m_Weight: 0
+  - m_Path: volund_skinHead_geo
+    m_Weight: 0
+  - m_Path: volund_swords_geo
+    m_Weight: 0
+  - m_Path: volund_teeth_geo
+    m_Weight: 0

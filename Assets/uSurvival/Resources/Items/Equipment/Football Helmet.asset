@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c06992fabc4400c8c2e33ff979c9e2, type: 3}
+  m_Name: Football Helmet
+  m_EditorClassIdentifier: 
+  maxStack: 1
+  maxDurability: 1000
+  destroyable: 1
+  toolTip: '<b>{NAME}</b>
+
+    An armored helmet for protection and recreation.
+
+
+    {DEFENSEBONUS} Defense
+
+    Durability: {DURABILITY}%'
+  image: {fileID: 21300000, guid: 1374f91d88be9482ca282836375ac7aa, type: 3}
+  drop: {fileID: 112787239652236888, guid: 529c03cdaba1f47fc9815ed588d4fe5a, type: 3}
+  modelPrefab: {fileID: 1910989550826017963, guid: 4e7c4e150e9044a4dba5046c5b35a28c,
+    type: 3}
+  category: Head
+  keepUsingWhileButtonDown: 0
+  successfulUseSound: {fileID: 0}
+  failedUseSound: {fileID: 0}
+  emptySound: {fileID: 0}
+  cooldown: 0
+  _cooldownCategory: 
+  shoulderLookAtWhileHolding: 0
+  useDirectly: 0
+  healthBonus: 0
+  hydrationBonus: 0
+  nutritionBonus: 0
+  damageBonus: 0
+  defenseBonus: 10
