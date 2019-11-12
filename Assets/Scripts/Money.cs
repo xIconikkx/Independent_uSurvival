@@ -7,7 +7,8 @@ public class Money : MonoBehaviour
     public int moneyBank;
     public int  moneyPlayer;
     public ScriptableItem Cash;
-    private Item CashItem;
+    [HideInInspector]
+    public Item CashItem;
 
     public PlayerInventory pInvo;
 
@@ -25,6 +26,7 @@ public class Money : MonoBehaviour
 
     public int FetchMoney()
     {
+        UpdateMoney();
         return moneyPlayer;
     }
 }

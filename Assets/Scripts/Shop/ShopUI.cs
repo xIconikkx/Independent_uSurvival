@@ -31,7 +31,7 @@ public class ShopUI : MonoBehaviour
     public Dropdown ShopList;
     public Text itemNameTxt;
     public Text itemCostTxt;
-    public InputField quantityInput;
+    public Text quantityInput;
     public Text shopPriceAdjust;
     public Text totalCost;
     private int quantity = 1;
@@ -39,7 +39,7 @@ public class ShopUI : MonoBehaviour
 
     //Current Shop Interacting With;
     private ShopSystem shopSys;
-
+    private GameObject currentPlayer;
     //[HideInInspector]
     public List<ScriptableItem> itemsForSaleUI = new List<ScriptableItem>();
             
@@ -66,21 +66,6 @@ public class ShopUI : MonoBehaviour
                 ShopColliders(true);
             }
         }
-
-        //if (usingShopUI)
-        //{
-        //    if (defaultPanel.activeSelf || adminPanel.activeSelf)
-        //    {
-                
-        //    }
-        //    else
-        //    {
-        //        if (shopSys.GetComponent<BoxCollider>().enabled != true)
-        //        {
-        //            shopSys.GetComponent<BoxCollider>().enabled = true;
-        //        }
-        //    }
-        //}
     }
 
     private void ShopColliders(bool i)
@@ -88,17 +73,18 @@ public class ShopUI : MonoBehaviour
         shopSys.GetComponent<BoxCollider>().enabled = i;
     }
 
-    public void OnInteractWithShopPanel(ShopSystem sSys)
+    public void OnInteractWithShopPanel(ShopSystem sSys, GameObject player)
     {
         //So we need to recieve all information about this particular shop;
         shopSys = sSys;
+        currentPlayer = player;
         ShopColliders(false);
 
         //So does anyone own the shop?
         if (shopSys.shopOwned)
         {
             //If its owned already, are we the owner?
-            if(Player.PlayerName == shopSys.ownerName)
+            if(currentPlayer.name == shopSys.ownerName)
             {
                 //If so, we reveal the admin panel
                 defaultPanel.SetActive(false);
@@ -154,6 +140,12 @@ public class ShopUI : MonoBehaviour
 
     public void SellShop()
     {
+        UIConfirmation.singleton.Show("Do you really want \n to sell the shop",ActuallySellShow);
+
+        
+    }
+    public void ActuallySellShow()
+    {
         bool sold = shopSys.PlayerSellShop();
 
         if (sold)
@@ -186,7 +178,27 @@ public class ShopUI : MonoBehaviour
 
     public void ItemPurchase()
     {
+        Debug.Log("Trying To Purchase");
+        bool bought = shopSys.PlayerPurchase(Player.localPlayer, itemsForSaleUI[ShopList.value].itemPrice,quantity);
 
+        PlayerInventory invo = Player.localPlayer.GetComponent<PlayerInventory>();
+        Money mon = Player.localPlayer.GetComponent<Money>();
+        Item iToAdd = new Item(itemsForSaleUI[ShopList.value]);
+
+        if (bought)
+        {
+            invo.Add(iToAdd, quantity);
+            invo.Remove(mon.CashItem, itemsForSaleUI[ShopList.value].itemPrice * quantity);
+
+            Debug.Log("Added items");
+        }
+        else
+        {
+            Debug.Log("You do not have enough money...");
+            UIPopup.singleton.Show("You do not have enough \n money to purchase this item");
+        }
+
+        
     }
 
     public void PriceAdjustSave()
@@ -262,16 +274,18 @@ public class ShopUI : MonoBehaviour
 
         if (Mathf.RoundToInt(i) < 0)
         {
-            int totalCostInt = itemsForSaleUI[ShopList.value].itemPrice + Mathf.RoundToInt(i) * quantity;
-            totalCost.text = "Total Cost: $" + totalCostInt;
+            int totalCostInt = itemsForSaleUI[ShopList.value].itemPrice + Mathf.RoundToInt(i);
+            totalCost.text = "Total Cost: $" + totalCostInt * quantity;
         }
         else if (Mathf.RoundToInt(i) > 0)
         {
-            int totalCostInt = itemsForSaleUI[ShopList.value].itemPrice + Mathf.RoundToInt(i) * quantity;
-            totalCost.text = "Total Cost: $" + totalCostInt;
+            int totalCostInt = itemsForSaleUI[ShopList.value].itemPrice + Mathf.RoundToInt(i);
+            totalCost.text = "Total Cost: $" + totalCostInt * quantity;
+        }else if(Mathf.RoundToInt(i) == 0)
+        {
+            int totalCostInt = itemsForSaleUI[ShopList.value].itemPrice + Mathf.RoundToInt(i);
+            totalCost.text = "Total Cost: $" + totalCostInt * quantity;
         }
-        
-        
     }
 
     public void QuanityChanged()
@@ -279,6 +293,7 @@ public class ShopUI : MonoBehaviour
         float toFloat = float.Parse(quantityInput.text);
         int toInt = Mathf.RoundToInt(toFloat);
         quantity = toInt;
+
 
         UpdateShopPanelDetails();
     }

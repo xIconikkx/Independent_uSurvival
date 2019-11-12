@@ -60,7 +60,7 @@ public class ShopSystem : NetworkBehaviour, Interactable
     {
         currentlyInteractingPlayer = player;
 
-        shopUI.OnInteractWithShopPanel(this);
+        shopUI.OnInteractWithShopPanel(this, player);
     }
 
     [Server]
@@ -164,5 +164,20 @@ public class ShopSystem : NetworkBehaviour, Interactable
     public void ShopPriceAdjust(int percent)
     {
         shopPriceAdjustInt = percent;
+    }
+
+    [Server]
+    public bool PlayerPurchase(GameObject player, int itemCost, int quantity)
+    {
+        Money mon = player.GetComponent<Money>();
+
+        if (mon.moneyPlayer >= itemCost * quantity)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
