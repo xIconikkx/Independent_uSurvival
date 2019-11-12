@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,24 +22,36 @@ public class ShopUI : MonoBehaviour
     public Text ownerTxt;
     public Text shopNameTxt;
     public Text shopOpenTxt;
+    public Text SliderAdjustTxt;
+    public Slider PriceAdjustSlider;
     public GameObject shopOpenBtn;
-
-    [Space(2)]
-    public Slider priceDifference;
 
     [Space(5)]
     [Header("Shop Cart Panel")]
-    public GameObject spawnPos;
+    public Dropdown ShopList;
+    public Text itemNameTxt;
+    public Text itemCostTxt;
+    public InputField quantityInput;
+    public Text shopPriceAdjust;
+    public Text totalCost;
+    private int quantity = 1;
+    //public GameObject spawnPos;
 
     //Current Shop Interacting With;
     private ShopSystem shopSys;
+
+    //[HideInInspector]
+    public List<ScriptableItem> itemsForSaleUI = new List<ScriptableItem>();
             
     void Start()
     {
-        if (shopMainUI.activeSelf) //We just want to make sure its disabled when we start the game.
-        {
-            shopMainUI.SetActive(false);
-        }
+        //if (shopMainUI.activeSelf) //We just want to make sure its disabled when we start the game.
+        //{
+        //    shopMainUI.SetActive(false);
+        //}
+
+        PriceAdjustSlider.value = 0;
+        SliderUpdate();
     }
 
     private void LateUpdate()
@@ -50,26 +63,36 @@ public class ShopUI : MonoBehaviour
                 defaultPanel.SetActive(false);
                 adminPanel.SetActive(false);
                 shopPanel.SetActive(false);
+                ShopColliders(true);
             }
         }
 
-        if(defaultPanel.activeSelf || adminPanel.activeSelf || shopPanel.activeSelf)
-        {
-            shopSys.GetComponent<BoxCollider>().enabled = false;
-        }
-        else
-        {
-            if(shopSys.GetComponent<BoxCollider>().enabled != true)
-            {
-                shopSys.GetComponent<BoxCollider>().enabled = true;
-            }
-        }
+        //if (usingShopUI)
+        //{
+        //    if (defaultPanel.activeSelf || adminPanel.activeSelf)
+        //    {
+                
+        //    }
+        //    else
+        //    {
+        //        if (shopSys.GetComponent<BoxCollider>().enabled != true)
+        //        {
+        //            shopSys.GetComponent<BoxCollider>().enabled = true;
+        //        }
+        //    }
+        //}
     }
 
-    public void OnInteractWithShop(ShopSystem sSys)
+    private void ShopColliders(bool i)
+    {
+        shopSys.GetComponent<BoxCollider>().enabled = i;
+    }
+
+    public void OnInteractWithShopPanel(ShopSystem sSys)
     {
         //So we need to recieve all information about this particular shop;
         shopSys = sSys;
+        ShopColliders(false);
 
         //So does anyone own the shop?
         if (shopSys.shopOwned)
@@ -161,6 +184,16 @@ public class ShopUI : MonoBehaviour
         }
     }
 
+    public void ItemPurchase()
+    {
+
+    }
+
+    public void PriceAdjustSave()
+    {
+        shopSys.ShopPriceAdjust(Mathf.RoundToInt(PriceAdjustSlider.value));
+    }
+
     private void UpdateDefaultPanelUI()
     {
         if (!shopSys.shopOwned)
@@ -182,4 +215,72 @@ public class ShopUI : MonoBehaviour
         }
         
     }
+
+    public void SliderUpdate()
+    {
+        int i = Mathf.RoundToInt(PriceAdjustSlider.value);
+        SliderAdjustTxt.text = i + "%";
+    }
+
+    public void OpenShopPanel(ShopSystem ss)
+    {
+
+        shopSys = ss;
+        UpdateShopPanelDropdown();
+        
+
+        defaultPanel.SetActive(false);
+        adminPanel.SetActive(false);
+        shopPanel.SetActive(true);
+    }
+
+    private void UpdateShopPanelDropdown()
+    {
+        ShopList.ClearOptions();
+
+        List<string> itemNames = new List<string>();
+        foreach(ScriptableItem i in itemsForSaleUI)
+        {
+            itemNames.Add(i.name);
+        }
+
+        ShopList.AddOptions(itemNames);
+        UpdateShopPanelDetails();
+    }
+
+    public void UpdateShopPanelDetails()
+    {
+        itemNameTxt.text = "Item Name: " + itemsForSaleUI[ShopList.value].name;
+        itemCostTxt.text = "Item Cost:  $" + itemsForSaleUI[ShopList.value].itemPrice;
+        shopPriceAdjust.text = "Shop Overhead: " + shopSys.shopPriceAdjustInt.ToString() + "%";
+
+        
+
+        Double result = ((double)itemsForSaleUI[ShopList.value].itemPrice / 100) * shopSys.shopPriceAdjustInt;
+
+        float i = float.Parse(result.ToString());
+
+        if (Mathf.RoundToInt(i) < 0)
+        {
+            int totalCostInt = itemsForSaleUI[ShopList.value].itemPrice + Mathf.RoundToInt(i) * quantity;
+            totalCost.text = "Total Cost: $" + totalCostInt;
+        }
+        else if (Mathf.RoundToInt(i) > 0)
+        {
+            int totalCostInt = itemsForSaleUI[ShopList.value].itemPrice + Mathf.RoundToInt(i) * quantity;
+            totalCost.text = "Total Cost: $" + totalCostInt;
+        }
+        
+        
+    }
+
+    public void QuanityChanged()
+    {
+        float toFloat = float.Parse(quantityInput.text);
+        int toInt = Mathf.RoundToInt(toFloat);
+        quantity = toInt;
+
+        UpdateShopPanelDetails();
+    }
 }
+

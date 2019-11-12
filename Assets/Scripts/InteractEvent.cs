@@ -8,9 +8,9 @@ public class InteractEvent : NetworkBehaviour, Interactable
 {
     public string interactText = "EDITME" ;
 
-    public UnityEvent OnInteract;
+    public MonoBehaviour scriptToBeSentOver;
 
-    public UnityEvent ShopOwnerName;
+    public UnityEvent OnInteract;
 
     public string GetInteractionText()
     {
@@ -19,11 +19,11 @@ public class InteractEvent : NetworkBehaviour, Interactable
 
     public void OnInteractClient(GameObject player)
     {
-        //Do Nothing for now
+        OnInteract.Invoke();
     }
 
     public void OnInteractServer(GameObject player)
     {
-        OnInteract.Invoke();
+        
     }
 }

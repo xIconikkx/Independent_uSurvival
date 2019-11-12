@@ -23,10 +23,16 @@ public class ShopSystem : NetworkBehaviour, Interactable
     [SyncVar] public string shopName;
     [HideInInspector]
     [SyncVar] public bool shopOpen;
+    [HideInInspector]
+    [SyncVar] public int shopPriceAdjustInt;
 
     //#####################################//
 
     private GameObject currentlyInteractingPlayer;
+
+    [Space(5)]
+    [Header("Items For Sale")]
+    public ScriptableItem[] ItemsForSale;
 
 
     //Server Recieves the Info Back
@@ -54,7 +60,7 @@ public class ShopSystem : NetworkBehaviour, Interactable
     {
         currentlyInteractingPlayer = player;
 
-        shopUI.OnInteractWithShop(this);
+        shopUI.OnInteractWithShopPanel(this);
     }
 
     [Server]
@@ -80,6 +86,18 @@ public class ShopSystem : NetworkBehaviour, Interactable
         {
             door.shopSys = this;
         }
+    }
+
+    public void OpenShopPanel()
+    {
+        shopUI.itemsForSaleUI.Clear();
+        foreach (ScriptableItem item in ItemsForSale)
+        {
+            shopUI.itemsForSaleUI.Add(item);
+        }
+
+
+        shopUI.OpenShopPanel(this);
     }
 
     [Server]
@@ -140,5 +158,11 @@ public class ShopSystem : NetworkBehaviour, Interactable
         //    door.open = shopOpen;
         //}
         return shopOpen;
+    }
+
+    [Server]
+    public void ShopPriceAdjust(int percent)
+    {
+        shopPriceAdjustInt = percent;
     }
 }
