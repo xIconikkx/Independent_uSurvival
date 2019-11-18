@@ -132,7 +132,7 @@ MonoBehaviour:
   serverOnly: 0
   localPlayerAuthority: 0
   m_AssetId: 
-  m_SceneId: 3560882371
+  m_SceneId: 1532979043
 --- !u!114 &114561698746940166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97ef1795b533b4ae8b853d31aca8b460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
   syncInterval: 0.1
   visUpdateInterval: 1
   forceHidden: 0
@@ -190,6 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ebef17b11c564a29a1ef8c82aa8e5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
   syncInterval: 0.1
   recoveryTickRate: 1
   health: {fileID: 114267406546561424}
@@ -210,8 +212,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   baseRecoveryPerTick: 0
   baseHealth: 50
 --- !u!114 &114112593219080706
@@ -226,6 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a002d35209f14f81b3038bfd97a2f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
   syncInterval: 0.1
   baseDamage: 0
   baseDefense: 0
@@ -234,13 +235,9 @@ MonoBehaviour:
   onServerReceivedDamage:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEventGameObjectInt, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   onClientReceivedDamage:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEventGameObjectInt, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
 --- !u!114 &1814950306457604824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,6 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 843419c4c4e7c4dde987a5a24170c6b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
   syncInterval: 0.1
 --- !u!114 &114337048517283516
 MonoBehaviour:
@@ -266,6 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19f5aa618c4ae4ac08e610f43ebccda9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
   syncInterval: 0.1
   dropChances:
   - drop: {fileID: 114115959467145612, guid: 855644539167947cda3b712817d4da25, type: 3}
@@ -284,6 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b081ead0dbd7e49cb96709f93b6ad731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
   syncInterval: 0.1
 --- !u!1 &1650703725731908
 GameObject:

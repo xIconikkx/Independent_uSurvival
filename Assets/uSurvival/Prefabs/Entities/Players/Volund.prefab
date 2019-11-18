@@ -8953,6 +8953,7 @@ GameObject:
   - component: {fileID: 114619441095220640}
   - component: {fileID: 6184944201558215827}
   - component: {fileID: 114233667154751406}
+  - component: {fileID: 114073781048403546}
   m_Layer: 2
   m_Name: Volund
   m_TagString: Player
@@ -9011,7 +9012,7 @@ MonoBehaviour:
   serverOnly: 0
   localPlayerAuthority: 0
   m_AssetId: 
-  m_SceneId: 1913892901
+  m_SceneId: 2396231443
 --- !u!54 &54984614582891000
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9782,7 +9783,7 @@ MonoBehaviour:
   freeLookKey: 308
   viewBlockingLayers:
     serializedVersion: 2
-    m_Bits: 14337
+    m_Bits: 1062912
   zoomSpeed: 0.5
   distance: 5
   minDistance: 0
@@ -10129,7 +10130,25 @@ MonoBehaviour:
   moneyBank: 0
   moneyPlayer: 0
   Cash: {fileID: 11400000, guid: 298e544216fcd6b4096a460408af5afa, type: 2}
+  CashItem:
+    hash: 0
+    ammo: 0
+    durability: 0
   pInvo: {fileID: 114650565052133598}
+--- !u!114 &114073781048403546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651221565857554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33317e209da845642b7c173b87298b3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
 --- !u!1 &1658550159286252
 GameObject:
   m_ObjectHideFlags: 0

@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_9;UNITY_2018_4;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MIRROR;MIRROR_1726_OR_NEWER;MIRROR_3_0_OR_NEWER;MIRROR_3_12_OR_NEWER;MIRROR_4_0_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_9;UNITY_2018_4;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MIRROR;MIRROR_1726_OR_NEWER;MIRROR_3_0_OR_NEWER;MIRROR_3_12_OR_NEWER;MIRROR_4_0_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -63,6 +63,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\AnimatorDisableHelper.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ChatUIManager.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\CustomInputField.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\DevConsoleUI.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\DropdownSubMenu.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ExitToSystem.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\FriendsPanelManager.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\LaunchURL.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\LayoutGroupPositionFix.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ListContentSizeFix.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ListTabsButton.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ListTabsManager.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ListTabsManagerWOB.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\LoginUserManager.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ModelDissolve.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\NewsPanelManager.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ObjectDisableHelper.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\RadialSlider.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\RotateLoader.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\RotateObject.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\SettingsManager.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\SliderManager.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\SplashScreenManager.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\SwitchManager.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\SwitchToMainPanels.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ToggleManager.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\TooltipManager.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\TopPanelButton.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\TopPanelManager.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\UIElementInFront.cs" />
+    <Compile Include="Assets\Field - Complete Main Menu\Scripts\UIElementSound.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveableObject.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveObjectController.cs" />
     <Compile Include="Assets\HardShellStudios\Complete Control\Core\Scripts\hInput.cs" />
@@ -118,6 +149,8 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scripts\Activate.cs" />
+    <Compile Include="Assets\Scripts\Authority\SetAuthority.cs" />
+    <Compile Include="Assets\Scripts\EasySuspension.cs" />
     <Compile Include="Assets\Scripts\ERWeapons.cs" />
     <Compile Include="Assets\Scripts\Housing\BuildingIDSystem.cs" />
     <Compile Include="Assets\Scripts\Housing\HouseDoor.cs" />
@@ -128,9 +161,24 @@
     <Compile Include="Assets\Scripts\Shop\ShopDoor.cs" />
     <Compile Include="Assets\Scripts\Shop\ShopSystem.cs" />
     <Compile Include="Assets\Scripts\Shop\ShopUI.cs" />
+    <Compile Include="Assets\Scripts\TestSpawn.cs" />
+    <Compile Include="Assets\Scripts\VehicleSystem.cs" />
     <Compile Include="Assets\Scripts\VendingMachine\VendingMachine.cs" />
+    <Compile Include="Assets\Smooth Sync\Common\Required Internal Use Scripts\Half.cs" />
+    <Compile Include="Assets\Smooth Sync\Common\Required Internal Use Scripts\HalfHelper.cs" />
+    <Compile Include="Assets\Smooth Sync\Common\Required Internal Use Scripts\MsgType.cs" />
+    <Compile Include="Assets\Smooth Sync\Common\Required Internal Use Scripts\SyncMode.cs" />
+    <Compile Include="Assets\Smooth Sync\Mirror\Smooth Sync Asset\SmoothSyncMirror.cs" />
+    <Compile Include="Assets\Smooth Sync\Mirror\Smooth Sync Asset\StateMirror.cs" />
+    <Compile Include="Assets\Smooth Sync\Mirror\Smooth Sync Example Scene\SmoothSyncMirrorExamplePlayerController.cs" />
     <Compile Include="Assets\uSurvival\Addons\BattleRoyale\BattleRoyaleSphere.cs" />
     <Compile Include="Assets\uSurvival\Plugins\Sqlite\sqlite_csharp\SQLite-net\SQLite.cs" />
+    <Compile Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Scripts\Displace.cs" />
+    <Compile Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Scripts\Water.cs" />
     <Compile Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Scripts\WaterBase.cs" />
     <Compile Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Scripts\WaterTile.cs" />
     <Compile Include="Assets\uSurvival\Scripts\_OnGUI\GUIConsole.cs" />
@@ -277,6 +325,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
     <None Include="Assets\uSurvival\Fonts\ubuntu-font-family-0.83\CONTRIBUTING.txt" />
+    <None Include="Assets\Field - Complete Main Menu\Shaders\Dissolve.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\uSurvival\Models\Items\(Public Domain) Low Poly Crossbow\Low Poly Crossbow - License.txt" />
     <None Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Shaders\FXWater4Simple.shader" />
@@ -296,6 +345,7 @@
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
     <None Include="Assets\uSurvival\Models\Items\(Public Domain) Archery Set\Archery Set - License.txt" />
+    <None Include="Assets\Field - Complete Main Menu\Shaders\Masked UI Blur.shader" />
     <None Include="Assets\uSurvival\Audio\(Public Domain) Heartbeat Sound\Heartbeat Sound - License.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
@@ -331,12 +381,16 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
     <None Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Shaders\WaterInclude.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Field - Complete Main Menu\Shaders\UI Blur.shader" />
+    <None Include="Assets\Field - Complete Main Menu\Read Me.txt" />
     <None Include="Assets\uSurvival\Audio\(Public Domain) 37 Hits and Punches\37 Hits and Punches - License.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\uSurvival\Models\Items\(Public Domain) Axe\Axe - License.txt" />
     <None Include="Assets\uSurvival\Models\Items\(Public Domain) STG44\STG 44 - License.txt" />
     <None Include="Assets\uSurvival\Audio\(Public Domain) Dry Fire Gun Sound\Dry Fire Gun Sound - License.txt" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\Smooth Sync\README.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/chadf/Desktop/Independent_uSurvival/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -345,6 +399,12 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/chadf/Desktop/Independent_uSurvival/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>C:/Users/chadf/Desktop/Independent_uSurvival/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>C:/Users/chadf/Desktop/Independent_uSurvival/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/chadf/Desktop/Independent_uSurvival/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -567,6 +627,12 @@
     </Reference>
     <Reference Include="Telepathy">
       <HintPath>C:/Users/chadf/Desktop/Independent_uSurvival/Assets/uSurvival/Plugins/Mirror/Runtime/Transport/Telepathy/Telepathy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/chadf/Desktop/Independent_uSurvival/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>C:/Users/chadf/Desktop/Independent_uSurvival/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/Users/chadf/Desktop/Independent_uSurvival/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
@@ -933,6 +999,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{59311DD8-07A3-55A1-240C-D973258B6B55}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Mirror.Weaver.csproj">
       <Project>{C6747DD2-12AC-7A7E-0FF6-4161BC4142CB}</Project>
       <Name>Mirror.Weaver</Name>
