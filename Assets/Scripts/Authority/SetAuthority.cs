@@ -11,17 +11,24 @@ public class SetAuthority : NetworkBehaviour
         GameObject theVeh = NetworkIdentity.spawned[vehicle].gameObject;
         theVeh.GetComponent<NetworkIdentity>().AssignClientAuthority(connectionToClient);
 
-        GameObject p = NetworkIdentity.spawned[player].gameObject;
-        p.SetActive(false);
 
+        RpcPlayerVisible(player, false);
 
         Debug.Log("Assigned Authority");
     }
+
+    [ClientRpc]
+    public void RpcPlayerVisible(uint player, bool i)
+    {
+        GameObject p = NetworkIdentity.spawned[player].gameObject;
+        p.SetActive(i);
+    }
+
+
     [Command]
     public void CmdRemoveAuthority(uint vehicle, uint player)
     {
-        GameObject p = NetworkIdentity.spawned[player].gameObject;
-        p.SetActive(true);
+        RpcPlayerVisible(player, true);
 
         GameObject theVeh = NetworkIdentity.spawned[vehicle].gameObject;
         theVeh.GetComponent<NetworkIdentity>().RemoveClientAuthority();

@@ -5,10 +5,18 @@ using Mirror;
 
 public class VehicleSystem : NetworkBehaviour, Interactable
 {
+    [Header("Scripts To Enable/Disable")]
+    [Tooltip("These scripts will get enabled when you enter as a driver and disabled when not the driver")]
     public MonoBehaviour[] VehicleScripts;
-    [Space(2)]
+
+    [Space(5)]
+    [Header("Exit For Player")]
+    [Tooltip("When the player wants to leave the vehicle, they will exit at this position")]
     public Transform ExitPoint;
-    [Space(2)]
+
+    [Space(5)]
+    [Header("Vehicle Camera")]
+    [Tooltip("This is the camera that gets enabled and disabled when you enter/exit the vehicle")]
     public GameObject Camera;
 
     [Header("Temp Info")]
@@ -16,9 +24,6 @@ public class VehicleSystem : NetworkBehaviour, Interactable
     [SyncVar] public bool hasDriver;
     [SyncVar] public string driverName;
     [SyncVar] public int passengerCount;
-
-    [Space(5)]
-    public bool HasAuthority;
 
     private string returnString;
     public int passengerSeating = 3;
@@ -33,62 +38,36 @@ public class VehicleSystem : NetworkBehaviour, Interactable
     {
         if(inVehicle && Input.GetKeyDown(KeyCode.E))
         {
-            Player.localPlayer.GetComponent<SetAuthority>().CmdRemoveAuthority(GetComponent<NetworkIdentity>().netId, Player.localPlayer.GetComponent<NetworkIdentity>().netId);
-            Player.localPlayer.transform.position = ExitPoint.position;
-            //We Want The Player To Be Shown
+            if (hasDriver && driverName == Player.localPlayer.GetComponent<Player>().PlayerName)
+            {
+                CmdExitVehicle(Player.localPlayer.GetComponent<NetworkIdentity>().netId);
+                Player.localPlayer.GetComponent<SetAuthority>().CmdRemoveAuthority(GetComponent<NetworkIdentity>().netId, Player.localPlayer.GetComponent<NetworkIdentity>().netId);
+                VehicleScriptsCall(false);
+            }
+            else
+            {
+                Player.localPlayer.GetComponent<Player>().CmdPlayerVisible(true, Player.localPlayer.GetComponent<NetworkIdentity>().netId);
+            }
+            
 
-            ExitVehicle(Player.localPlayer);
+            Player.localPlayer.SetActive(true);
+            Player.localPlayer.transform.position = ExitPoint.position;
 
             inVehicle = false;
             Camera.SetActive(false);
             
-            VehicleScriptsCall();
+            
             Debug.Log("You just pressed E To Exit");
         }
     }
 
 
-    public string GetInteractionText()
+    
+    //When we exit the vehicle, we call this to let other players know
+    [Command] 
+    private void CmdExitVehicle(uint player)
     {
-        if (!inVehicle && !hasDriver)
-        {
-            returnString = "Enter Vehicle";
-        }
-        else if(!inVehicle && hasDriver)
-        {
-            returnString = "Full Vehicle";
-        }
-
-        return returnString;
-    }
-
-    public void OnInteractClient(GameObject player)
-    {
-        if (!hasDriver && !inVehicle)
-        {
-            inVehicle = true;
-            player.SetActive(false);
-            Camera.SetActive(true);
-
-            Player.localPlayer.GetComponent<SetAuthority>().CmdAssignAuthority(GetComponent<NetworkIdentity>().netId,Player.localPlayer.GetComponent<NetworkIdentity>().netId);
-
-            VehicleScriptsCall();
-        }
-    }
-
-    public void OnInteractServer(GameObject player)
-    {
-        if (!hasDriver)
-        {
-            hasDriver = true;
-            driverName = player.name;
-        }
-    }
-
-    [Server]
-    private void ExitVehicle(GameObject player)
-    {
-        if(driverName == player.name)
+        if(driverName == NetworkIdentity.spawned[player].name)
         {
             inVehicle = false;
             hasDriver = false;
@@ -98,11 +77,96 @@ public class VehicleSystem : NetworkBehaviour, Interactable
         }
     }
 
-    private void VehicleScriptsCall()
+    [Server]
+    private void Passenger(bool entering, uint player)
+    {
+        NetworkIdentity.spawned[player].gameObject.SetActive(!entering);
+
+        if (entering)
+        {
+            passengerCount++;
+        }
+        else
+        {
+            passengerCount--;
+        }
+        
+    }
+
+    //This is called whenever we want to activate/de-activate vehicle control scripts;
+    private void VehicleScriptsCall(bool enable)
     {
         foreach(MonoBehaviour script in VehicleScripts)
         {
-            script.enabled =! script.isActiveAndEnabled;
+            script.enabled = enable;
+        }
+    }
+
+    //####################################//
+    //# Functions For Entering A Vehicle #//
+    //####################################//
+
+    //This returns the correct text when you look at the car
+    public string GetInteractionText()
+    {
+        if (!inVehicle && !hasDriver)
+        {
+            returnString = "Enter As Driver";
+        }
+        else if (!inVehicle && hasDriver && passengerCount < passengerSeating)
+        {
+            returnString = "Enter As Passenger";
+        }
+        else if (hasDriver && passengerCount >= passengerSeating)
+        {
+            returnString = "Vehicle Full";
+        }
+
+        return returnString;
+    }
+
+    //We Call This When We Press 'F' on the vehicle. These are called locally on the client
+    public void OnInteractClient(GameObject player)
+    {
+        if (!hasDriver && !inVehicle)
+        {
+            EnterVehicleDriver(player);
+        }
+        else if(hasDriver && passengerCount < passengerSeating)
+        {
+            EnterVehiclePassenger(player);
+        }
+    }
+
+    private void EnterVehicleDriver(GameObject player)
+    {
+        inVehicle = true;
+        Camera.SetActive(true);
+        player.SetActive(false);
+
+        Player.localPlayer.GetComponent<PlayerInteraction>().current = null;
+        Player.localPlayer.GetComponent<SetAuthority>().CmdAssignAuthority(GetComponent<NetworkIdentity>().netId, Player.localPlayer.GetComponent<NetworkIdentity>().netId);
+
+        VehicleScriptsCall(true);
+    }
+
+    private void EnterVehiclePassenger(GameObject player)
+    {
+        inVehicle = true;
+        Camera.SetActive(true);
+        player.SetActive(false);
+
+        Player.localPlayer.GetComponent<PlayerInteraction>().current = null;
+        Player.localPlayer.GetComponent<Player>().CmdPlayerVisible(false, Player.localPlayer.GetComponent<NetworkIdentity>().netId);
+    }
+
+    //We use this to change values on the server so other people know when we have entered vehicle as driver/passenger etc
+    public void OnInteractServer(GameObject player)
+    {
+        if (!hasDriver)
+        {
+            hasDriver = true;
+            driverName = player.name;
         }
     }
 }

@@ -6,6 +6,7 @@ using Mirror;
 public class NetworkAuthenticatorSurvival : NetworkAuthenticator
 {
     [Header("Components")]
+    public MenuSystem menuSys;
     public NetworkManagerSurvival manager;
 
     // login info for the local player
@@ -107,10 +108,12 @@ public class NetworkAuthenticatorSurvival : NetworkAuthenticator
 
                         // login successful
                         Debug.Log("login successful: " + message.account);
+                        //Do it here
 
                         // notify client about successful login. otherwise it
                         // won't accept any further messages.
                         conn.Send(new LoginSuccessMsg());
+                        //menuSys.SwitchPanel(2);
 
                         // authenticate on server
                         OnServerAuthenticated.Invoke(conn);

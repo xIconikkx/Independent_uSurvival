@@ -7,7 +7,7 @@ public class SyncDictionaryIntDouble : SyncDictionary<int, double> {}
 
 public class Player : NetworkBehaviour
 {
-    static public string PlayerName;
+    [SyncVar] public string PlayerName;
     public Combat combat;
     [HideInInspector] public string account = "";
     [HideInInspector] public string className = "";
@@ -43,8 +43,26 @@ public class Player : NetworkBehaviour
     public override void OnStartServer()
     {
         onlinePlayers[name] = gameObject;
-        PlayerName = this.gameObject.name;
+        PlayerName = gameObject.name;
         Debug.Log("Local Player Name: " + PlayerName);
+        SendName(PlayerName);
+    }
+
+    [Server]
+    private void SendName(string name)
+    {
+        PlayerName = name;
+    }
+
+    [Command]
+    public void CmdPlayerVisible(bool i, uint player)
+    {
+        RpcPlayerVisible(i,player);
+    }
+    [ClientRpc]
+    public void RpcPlayerVisible(bool i, uint player)
+    {
+        NetworkIdentity.spawned[player].gameObject.SetActive(i);
     }
 
     void OnDestroy()

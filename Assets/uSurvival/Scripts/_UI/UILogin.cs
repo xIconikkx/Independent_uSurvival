@@ -6,6 +6,7 @@ using System.Linq;
 
 public class UILogin : MonoBehaviour
 {
+    [Space(5)]
     public UIPopup uiPopup;
     public NetworkManagerSurvival manager; // singleton=null in Start/Awake
     public NetworkAuthenticatorSurvival auth;
@@ -21,6 +22,8 @@ public class UILogin : MonoBehaviour
     public Button dedicatedButton;
     public Button cancelButton;
     public Button quitButton;
+    
+
 
     void Start()
     {
@@ -35,7 +38,7 @@ public class UILogin : MonoBehaviour
     void OnDestroy()
     {
         // save last server by name in case order changes some day
-        PlayerPrefs.SetString("LastServer", serverDropdown.captionText.text);
+        //PlayerPrefs.SetString("LastServer", serverDropdown.captionText.text);
     }
 
     void Update()
@@ -47,7 +50,7 @@ public class UILogin : MonoBehaviour
         {
             panel.SetActive(true);
 
-            // status
+             //status
             if (manager.IsConnecting())
                 statusText.text = "Connecting...";
             else if (manager.state == NetworkState.Handshake)
@@ -65,8 +68,8 @@ public class UILogin : MonoBehaviour
             hostButton.onClick.SetListener(() => { manager.StartHost(); });
             cancelButton.gameObject.SetActive(manager.IsConnecting());
             cancelButton.onClick.SetListener(() => { manager.StopClient(); });
-            dedicatedButton.interactable = Application.platform != RuntimePlatform.WebGLPlayer && !manager.isNetworkActive;
-            dedicatedButton.onClick.SetListener(() => { manager.StartServer(); });
+            //dedicatedButton.interactable = Application.platform != RuntimePlatform.WebGLPlayer && !manager.isNetworkActive;
+            //dedicatedButton.onClick.SetListener(() => { manager.StartServer(); });
             quitButton.onClick.SetListener(() => { NetworkManagerSurvival.Quit(); });
 
             // inputs
@@ -78,8 +81,12 @@ public class UILogin : MonoBehaviour
             serverDropdown.options = manager.serverList.Select(
                 sv => new Dropdown.OptionData(sv.name)
             ).ToList();
-            manager.networkAddress = manager.serverList[serverDropdown.value].ip;
+            manager.networkAddress = "127.0.0.1";//manager.serverList[serverDropdown.value].ip;
         }
-        else panel.SetActive(false);
+        else
+        {
+            panel.SetActive(false);
+        }
+        
     }
 }

@@ -66,12 +66,16 @@ public class UICharacterSelection : MonoBehaviour
                     });
 
                     // delete button: sends delete message
-                    slot.deleteButton.onClick.SetListener(() => {
-                        uiConfirmation.Show(
-                            "Do you really want to delete <b>" + characters[icopy].name + "</b>?",
-                            () => { NetworkClient.Send(new CharacterDeleteMsg{value=icopy}); }
-                        );
-                    });
+                    if (slot.deleteButton != null)
+                    {
+                        slot.deleteButton.onClick.SetListener(() =>
+                        {
+                            uiConfirmation.Show(
+                                "Do you really want to delete <b>" + characters[icopy].name + "</b>?",
+                                () => { NetworkClient.Send(new CharacterDeleteMsg { value = icopy }); }
+                            );
+                        });
+                    }
                 }
 
                 createButton.interactable = characters.Length < manager.characterLimit;

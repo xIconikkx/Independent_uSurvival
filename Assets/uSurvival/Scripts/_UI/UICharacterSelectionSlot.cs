@@ -9,4 +9,9 @@ public class UICharacterSelectionSlot : MonoBehaviour
     public Image image;
     public Button selectButton;
     public Button deleteButton;
+
+    public void OnPointerClick()
+    {
+        Debug.Log("Testing testing testing?!");
+    }
 }

@@ -132,7 +132,7 @@ public class ShopSystem : NetworkBehaviour, Interactable
     [Server] //Called By The Sell Button On The ShopUI Script
     public bool PlayerSellShop()
     {
-        if(shopOwned && ownerName == Player.PlayerName)
+        if(shopOwned && ownerName == Player.localPlayer.GetComponent<Player>().PlayerName)
         {
             ownerName = "";
             shopOwned = false;

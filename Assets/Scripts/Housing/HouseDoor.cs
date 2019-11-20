@@ -23,7 +23,7 @@ public class HouseDoor : NetworkBehaviour, Interactable
     // interactable ////////////////////////////////////////////////////////////
     public string GetInteractionText()
     {
-        if (Player.PlayerName == houseSys.ownerName)
+        if (Player.localPlayer.GetComponent<Player>().PlayerName == houseSys.ownerName)
         {
             if (open)
             {

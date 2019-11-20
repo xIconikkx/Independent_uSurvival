@@ -63,37 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\AnimatorDisableHelper.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ChatUIManager.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\CustomInputField.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\DevConsoleUI.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\DropdownSubMenu.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ExitToSystem.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\FriendsPanelManager.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\LaunchURL.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\LayoutGroupPositionFix.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ListContentSizeFix.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ListTabsButton.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ListTabsManager.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ListTabsManagerWOB.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\LoginUserManager.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ModelDissolve.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\NewsPanelManager.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ObjectDisableHelper.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\RadialSlider.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\RotateLoader.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\RotateObject.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\SettingsManager.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\SliderManager.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\SplashScreenManager.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\SwitchManager.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\SwitchToMainPanels.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\ToggleManager.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\TooltipManager.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\TopPanelButton.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\TopPanelManager.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\UIElementInFront.cs" />
-    <Compile Include="Assets\Field - Complete Main Menu\Scripts\UIElementSound.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveableObject.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveObjectController.cs" />
     <Compile Include="Assets\HardShellStudios\Complete Control\Core\Scripts\hInput.cs" />
@@ -157,11 +126,14 @@
     <Compile Include="Assets\Scripts\Housing\HousingSystem.cs" />
     <Compile Include="Assets\Scripts\InteractEvent.cs" />
     <Compile Include="Assets\Scripts\MedicSystem.cs" />
+    <Compile Include="Assets\Scripts\MenuSystem.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
     <Compile Include="Assets\Scripts\Shop\ShopDoor.cs" />
     <Compile Include="Assets\Scripts\Shop\ShopSystem.cs" />
     <Compile Include="Assets\Scripts\Shop\ShopUI.cs" />
     <Compile Include="Assets\Scripts\TestSpawn.cs" />
+    <Compile Include="Assets\Scripts\UI_Script_Testing\CharacterUISlot.cs" />
+    <Compile Include="Assets\Scripts\UI_Script_Testing\new_Login.cs" />
     <Compile Include="Assets\Scripts\VehicleSystem.cs" />
     <Compile Include="Assets\Scripts\VendingMachine\VendingMachine.cs" />
     <Compile Include="Assets\Smooth Sync\Common\Required Internal Use Scripts\Half.cs" />
@@ -325,7 +297,6 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
     <None Include="Assets\uSurvival\Fonts\ubuntu-font-family-0.83\CONTRIBUTING.txt" />
-    <None Include="Assets\Field - Complete Main Menu\Shaders\Dissolve.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\uSurvival\Models\Items\(Public Domain) Low Poly Crossbow\Low Poly Crossbow - License.txt" />
     <None Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Shaders\FXWater4Simple.shader" />
@@ -345,7 +316,6 @@
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
     <None Include="Assets\uSurvival\Models\Items\(Public Domain) Archery Set\Archery Set - License.txt" />
-    <None Include="Assets\Field - Complete Main Menu\Shaders\Masked UI Blur.shader" />
     <None Include="Assets\uSurvival\Audio\(Public Domain) Heartbeat Sound\Heartbeat Sound - License.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
@@ -382,8 +352,6 @@
     <None Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Shaders\WaterInclude.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
     <None Include="Assets\uSurvival\Prefabs\Effects\Water(from Unity Standard Assets)\Water4\Shaders\FXWater4Advanced.shader" />
-    <None Include="Assets\Field - Complete Main Menu\Shaders\UI Blur.shader" />
-    <None Include="Assets\Field - Complete Main Menu\Read Me.txt" />
     <None Include="Assets\uSurvival\Audio\(Public Domain) 37 Hits and Punches\37 Hits and Punches - License.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\uSurvival\Models\Items\(Public Domain) Axe\Axe - License.txt" />

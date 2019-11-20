@@ -28,6 +28,7 @@ TagManager:
   - FurnaceFuelSlot
   - FurnaceResultSlot
   - NetworkManager
+  - findme
   layers:
   - Default
   - TransparentFX
