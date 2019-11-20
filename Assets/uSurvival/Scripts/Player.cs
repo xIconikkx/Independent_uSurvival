@@ -43,8 +43,9 @@ public class Player : NetworkBehaviour
     public override void OnStartServer()
     {
         onlinePlayers[name] = gameObject;
-        PlayerName = gameObject.name;
         Debug.Log("Local Player Name: " + PlayerName);
+
+        PlayerName = gameObject.name;
         SendName(PlayerName);
     }
 
@@ -53,6 +54,10 @@ public class Player : NetworkBehaviour
     {
         PlayerName = name;
     }
+
+    //############################//
+    //# Needed For Vehicle Addon #//
+    //############################//
 
     [Command]
     public void CmdPlayerVisible(bool i, uint player)
@@ -64,6 +69,28 @@ public class Player : NetworkBehaviour
     {
         NetworkIdentity.spawned[player].gameObject.SetActive(i);
     }
+
+    [Command]
+    public void CmdAssignAuthority(uint vehicle)
+    {
+        GameObject theVeh = NetworkIdentity.spawned[vehicle].gameObject;
+        theVeh.GetComponent<NetworkIdentity>().AssignClientAuthority(connectionToClient);
+
+        Debug.Log("Assigned Authority");
+    }
+
+    [Command]
+    public void CmdRemoveAuthority(uint vehicle)
+    {
+        GameObject theVeh = NetworkIdentity.spawned[vehicle].gameObject;
+        theVeh.GetComponent<NetworkIdentity>().RemoveClientAuthority();
+
+        Debug.Log("Removed Authority");
+    }
+
+    //#######//
+    //# End #//
+    //#######//
 
     void OnDestroy()
     {

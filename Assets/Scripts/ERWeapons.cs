@@ -9,7 +9,6 @@ public class ERWeapons : MonoBehaviour
 
     public bool CheckIfUsingTool(UsableItem i)
     {
-       
         foreach(UsableItem ui in weaponsCanBeUsed)
         {
             if (ui.Equals(i))
